@@ -9,7 +9,7 @@ a Fallout 4 mod by Greslin
 (https://greslingames.com/)  
 
 
-#### Beschreibung:  
+## Beschreibung:  
 Präzise Wettervorhersage in FO4  
 
 In Mods wie FROST kann das Wetter gefährlich sein, und der Gang nach draußen ist oft eine wichtige taktische Entscheidung: Regnet es in Strömen? Kann ich mich im Nebel verstecken? Sollte ich lieber drinnen bleiben und ein Nickerchen machen? Wird mich das Wetter umbringen oder mir den Tag retten?
@@ -28,12 +28,12 @@ Ab v1.04 hat der Wetterbericht jetzt einen alternativen Berichtsmodus, der dir s
 
 Der Wetterbericht verfügt jetzt auch über zusätzliche Optionen für die Einbindung der Wetterbericht-Funktionalität in Aktivatorboxen und andere nicht inventarisierte Geräte. Diese Funktion wird in APC Home - Greslin Update verwendet, um eine Wettervorhersagetafel im APC zu implementieren. Siehe apc-home-update für weitere Informationen.
 
-#### Resources and Tools:  
+## Resources and Tools:  
 ESP-ESM Translator  
 https://www.nexusmods.com/skyrimspecialedition/mods/921/?tab=description  
 
-#### Download:  
+## Download:  
 Github: https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht  
 
-#### Changelog:  
-[20.05.2023]	Initial release 1.0: MCM and .ESP strings translated  
+## Changelog:  
+[20.05.2023] Initial release 1.0: MCM and .ESP strings translated, Added Readme.md
