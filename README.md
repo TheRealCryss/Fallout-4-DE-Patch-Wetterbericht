@@ -33,7 +33,10 @@ ESP-ESM Translator
 https://www.nexusmods.com/skyrimspecialedition/mods/921/?tab=description  
 
 ## Download:  
-Github: https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht  
+Github: https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht/releases
+
+## Contacting Cryss
+therealcryssgaming@gmail.com
 
 ## Changelog:  
 [20.05.2023] Initial release 1.0: MCM and .ESP strings translated, Added Readme.md
