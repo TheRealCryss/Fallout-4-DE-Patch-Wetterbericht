@@ -29,27 +29,27 @@ Ab v1.04 hat der Wetterbericht jetzt einen alternativen Berichtsmodus, der dir s
 Der Wetterbericht verfügt jetzt auch über zusätzliche Optionen für die Einbindung der Wetterbericht-Funktionalität in Aktivatorboxen und andere nicht inventarisierte Geräte. Diese Funktion wird in APC Home - Greslin Update verwendet, um eine Wettervorhersagetafel im APC zu implementieren. Siehe apc-home-update für weitere Informationen.
 
 ## Installation  
-Put the patch after the original Weather Report mod and you are fine.  
+Platziere einfach den Patch nach dem Weather Report mod in deinem Mod-Manager (am besten MO2).
 
 ## Download:  
 Github: https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht/releases
 
-## Contacting Cryss  
+## Kontakt  
 therealcryssgaming@gmail.com  
 https://therealcryss.github.io/  
 
 Greslin Games: https://discord.gg/jMUnXDV  
 The MRC Shop: https://discord.gg/7HWdmXvaBP  
 
-I hope you enjoy this patch. If you have any remarks and suggestions please use either the Github issue tracker or ask me directly at the various Discord servers I am a member of.  
+Ich hoffe, du findest den Patch nützlich. Falls du Anmnerkungen und Verbesserungsvorschläge hast, benutze entweder den Github issue tracker oder spreche mich direkt in einem der Discord-Server an. 
 
-## Resources and Tools:  
+## Resourcen und Tools:  
 ESP-ESM Translator  
 https://www.nexusmods.com/skyrimspecialedition/mods/921/?tab=description  
 
 ## Changelog:  
 [2023/05/20]  
 
-Initial release 1.0  
-- MCM and .ESP strings translated  
-- Added Readme.md  
+Erstes Release 1.0  
+- MCM und .ESP strings übersetzt  
+- Readme.md hinzugefügt
