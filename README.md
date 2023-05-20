@@ -1,10 +1,10 @@
-Wetterbericht  
+Wetterbericht 1.042  
 Deutsche Lokalisierung von Cryss  
 https://therealcryss.github.io/  
 
 für  
 
-Weather Report  
+Weather Report 1.042  
 a Fallout 4 mod by Greslin  
 (https://greslingames.com/)  
 
