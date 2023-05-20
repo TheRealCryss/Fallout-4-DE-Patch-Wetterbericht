@@ -41,7 +41,7 @@ https://therealcryss.github.io/
 Greslin Games: https://discord.gg/jMUnXDV  
 The MRC Shop: https://discord.gg/7HWdmXvaBP  
 
-I hope you enjoy this patch. If you have any remarks and suggestions please you either the Github issue tracker or ask me directly at the various Discord servers I am a member of.  
+I hope you enjoy this patch. If you have any remarks and suggestions please use either the Github issue tracker or ask me directly at the various Discord servers I am a member of.  
 
 ## Resources and Tools:  
 ESP-ESM Translator  
