@@ -1,0 +1,198 @@
+{
+  "modName": "Weather Report",
+  "displayName": "Wetterbericht",
+  "minMcmVersion": 2,
+  "pluginRequirements": ["WeatherReport.esp"],
+  "content": [
+     {
+      "text": "<p align='center'><font size='30'>Wetterbericht v1.042</font></p>",
+	  "html": true,
+      "type": "text"
+    },
+	{
+      "text": "<p align='center'>von Greslin</p>\n<p align='center'>Deutsche Übersetzung von Cryss</p>",
+	  "html": true,
+      "type": "text"
+    },
+	{
+	  "type": "spacer"
+	},
+	{
+      "text": "Hole dir den Wetterbericht, bevor du nach draußen gehst.",
+      "type": "text"
+    },
+	{
+	  "type": "spacer"
+	},
+    {
+      "text": "Einstellungen",
+      "type": "section"
+    },
+	{
+	  "type": "spacer"
+	},
+	{
+	  "text": "Wetterberichtseffekte aktivieren (Std.: EIN)",
+	  "type": "switcher",
+	  "help": "Wenn EIN, wird der Wetterbericht das Wetter prüfen.",
+	  "valueOptions": {
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|728C"
+		}
+	},
+	{
+	  "text": "Dauer der Wettervorhersage anzeigen (Std.: AUS)",
+	  "type": "switcher",
+	  "help": "Wenn EIN, werden die prognostizierten Zeiträume in Innenbereichen angezeigt.",
+	  "valueOptions": {
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98CC"
+		}
+	},
+	{
+	  "type": "spacer"
+	},
+	{
+	  "text": "Würfelt das Wetter automatisch nach Ablauf des Timers (Std.: AUS)",
+	  "type": "switcher",
+	  "help": "Wenn EIN und der Spieler sich in einem Gebäude befindet, wird das Wetter nach Ablauf des Timers automatisch neu gewürfelt.",
+	  "valueOptions": {
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98BB"
+		}
+	},
+	{
+	  "text": "Mindestdauer der Wettervorhersage (Std.: 1.0)",
+	  "type": "slider",
+	  "help": "Die Wettervorhersage wird für diese Mindestanzahl von Spielstunden gültig sein.",
+	  "valueOptions": {
+		"min": 0.5,
+		"max": 8.0,
+		"step": 0.5,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98BD"
+		}
+	},
+	{
+	  "text": "Maximale Zeitdauer der Wettervorhersagen (Std.: 6.0)",
+	  "type": "slider",
+	  "help": "Die Wettervorhersage wird für diese maximale Zahl von Spielstunden gültig sein.",
+	  "valueOptions": {
+		"min": 0.5,
+		"max": 12.0,
+		"step": 0.5,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98BC"
+		}
+	},
+	{
+	  "type": "spacer"
+	},
+	{
+	  "text": "Wahrscheinlichkeit für Schnee/Strahlensturm, tagsüber (Std.: 0,1)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht tagsüber Schnee oder Strahlensturm meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98B8"
+		}
+	},
+	{
+	  "text": "Wahrscheinlichkeit für Schnee/Strahlensturm, nachts (Std.: 0,1)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht für die Nacht Schnee oder Strahlensturm meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98C0"
+		}
+	},
+	{
+	  "type": "spacer"
+	},
+	{
+	  "text": "Regenwahrscheinlichkeit, tagsüber (Std.: 0,2)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht für den Tag Regen meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98B6"
+		}
+	},
+	{
+	  "text": "Regenwahrscheinlichkeit, nachts (Std.: 0.2)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht für die Nacht Regen meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98BE"
+		}
+	},
+	{
+	  "type": "spacer"
+	},
+	{
+	  "text": "Wahrscheinlichkeit für bewölktes/nebliges Wetter, \ntagsüber (Std.: 0,05)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht für den Tag bewölktes Wetter meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98B7"
+		}
+	},
+	{
+	  "text": "Wahrscheinlichkeit für bewölktes/nebliges Wetter,\nnachts (Std.: 0,2)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht für die Nacht bewölktes Wetter meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98BF"
+		}
+	},
+	{
+	  "type": "spacer"
+	},
+	{
+	  "text": "Wahrscheinlichkeit für klares Wetter, tagsüber (Std.: 0,4)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht tagsüber klare Wetterbedingungen meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98B9"
+		}
+	},
+	{
+	  "text": "Wahrscheinlichkeit für klares Wetter, nachts (Std.: 0,4)",
+	  "type": "slider",
+	  "help": "Die Wahrscheinlichkeit, dass der Wetterbericht für die Nacht klare Wetterbedingungen meldet.",
+	  "valueOptions": {
+		"min": 0.0,
+		"max": 1.0,
+		"step": 0.05,
+		"sourceType": "GlobalValue",
+		"sourceForm": "WeatherReport.esp|98C1"
+		}
+	}
+	
+]
+}
