@@ -37,6 +37,16 @@ Github: https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht/release
 
 ## Contacting Cryss
 therealcryssgaming@gmail.com
+https://therealcryss.github.io/
+
+Greslin Games: https://discord.gg/jMUnXDV
+The MRC Shop: https://discord.gg/7HWdmXvaBP
+
+I hope you enjoy this patch. If you have any remarks and suggestions please you either the Github issue tracker or ask me directly at the various Discord servers I am a member of.
 
 ## Changelog:  
-[20.05.2023] Initial release 1.0: MCM and .ESP strings translated, Added Readme.md
+[2023/05/20]  
+
+Initial release 1.0  
+- MCM and .ESP strings translated  
+- Added Readme.md  
