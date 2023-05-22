@@ -29,7 +29,9 @@ Ab v1.04 hat der Wetterbericht jetzt einen alternativen Berichtsmodus, der dir s
 Der Wetterbericht verfügt jetzt auch über zusätzliche Optionen für die Einbindung der Wetterbericht-Funktionalität in Aktivatorboxen und andere nicht inventarisierte Geräte. Diese Funktion wird in APC Home - Greslin Update verwendet, um eine Wettervorhersagetafel im APC zu implementieren. Siehe apc-home-update für weitere Informationen.
 
 ## Installation  
-Platziere einfach den Patch nach dem Weather Report mod in deinem Mod-Manager (am besten MO2).
+Platziere einfach den Patch nach dem Weather Report mod in deinem Mod-Manager (am besten MO2). Dadurch wird einfach die EN-Version der PANPC-Konfigurationsdatei für MCM (config.json) überschrieben und das Menu ist in Deutsch.  
+
+![MO2-LO-Weather-Report-DE-Patch](https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht/assets/128715006/f52d385c-1a5f-4adf-bac9-0ccc77b4447c)  
 
 ## Download:  
 Github: https://github.com/TheRealCryss/Fallout-4-DE-Patch-Wetterbericht/releases
